@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cálculo de Desconto</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Cálculo de Desconto para Produtos</h1>
+      <p>
+        Olá, digite no campo de <i>"preço"</i> o valor do produto e no campo de
+        <i>"desconto"</i> o valor do desconto, para diser qual será a
+        porcentagem de desconto sobre o produto. Após isso click no botão
+        <i>"Calcular"</i> para receber o resultado.
+      </p>
+    </header>
+    <section>
+      <div>
+        <label for="valores">Preço do produto original: </label>
+        <input
+          type="number"
+          id="preco"
+          placeholder="Digite o preço do produto"
+        />
+        <br />
+        <label for="valores">Porcentagem de desconto sobre o produto: </label>
+        <input
+          type="number"
+          id="desconto"
+          placeholder="Digite o valor de desconto"
+        />
+        <br />
+        <button id="botao" onclick="calculaDesconto()">Calcular</button>
+      </div>
+    </section>
+    <script src="Pagina.js"></script>
+  </body>
+</html>

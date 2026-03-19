@@ -1,2 +1,2 @@
 # Diversos
-programas básicos para fins de estudos
+Programas básicos para fins de estudos em HTML, CSS e JavaScript.
